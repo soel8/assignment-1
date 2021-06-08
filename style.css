@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    margin-left: 10%;
+    margin-bottom: 5px;
 }
 .orange-highlight{
     color: orange;
@@ -13,9 +15,9 @@ h2{
 }
 .half-width{
     width: 40%;
-    margin-left: 5%;
+   
     float: left;
-    padding-left: 2%;
+   
 }
 p{
     color: dimgray;
@@ -34,13 +36,32 @@ p{
 section{
     height: 300px;
     padding-bottom: 5px;}
-    
-.working-projects{
-    height: 25%;
-    width: 25%;
-    margin-left: 5%;
+   .images-settings{
+    display: inline-flexbox;
     float: left;
-    width: 20%;
-    height: 20%;
-    box-shadow: 20px 30px 40px gray;
-}
+
+   }
+   img{
+       height: 25%;
+       width: 25%;
+       float: left;
+   }
+   .last-frame{
+margin-left: 20%;
+   }
+   .last-one{
+       height: 60%;
+       width: 60%;
+       border-radius: 10px;
+   }
+   p{
+       text-align: center;
+   }
+   .image-final{
+       height: 101px;
+       width: 101px;
+       padding-left: 500px;
+       border-left: 5px;
+       margin-left: 5px;
+
+   }
